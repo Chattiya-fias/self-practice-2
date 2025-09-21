@@ -1,0 +1,10 @@
+เรียน class 06 มึนมากด้วยปัจจัยหลายอย่างส่วนตัว ทำให้ตามไม่ค่อยทัน เลยต้องทบทวนเนื้อหาเองเยอะเลย
+ส่วนนึงก็จากสไลด์อาจารย์ อีกส่วนก็ให้ chatgpt ช่วยอธิบาย
+- part 01 ทบทวนและทำความเข้าใจ functional programming concept
+- part 02 ทบทวน Declarative code VS Imperative code จริงๆหัวข้อนี้ถูกพูดถึงหลายรอบมาก 
+รวมถึงใน self-practice อื่นๆก่อนหน้าด้วย แต่ทบทวนอีกสักรอบเพื่อการเขียนโปรแกรมที่ดีในอนาคต
+- part 03 function แบบ imutable สามารถ compose function ได้ 
+- part 04 pure function VS impure function รวมถึงเรียนรู้ function scope -> global variavle กับ local variable จากโจทย์ของอาจารย์ในห้อง
+- part 05 เรียนซ้ำ closures เพิ่มความเข้าใจจากเดิมในห้อง
+- part 06 practice 2 ข้อจากในห้อง
+- part 07 ทำโจทย์ Project ต่อจากในห้อง
