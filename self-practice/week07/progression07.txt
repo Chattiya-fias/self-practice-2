@@ -1,0 +1,19 @@
+- part 00 intro เรียนรู้และสรุปทฤษฎีของ DOM ใหม่ก่อนทำ self-practice
+>> DOM (Document Odject Modeling) Concept
+- มอง html document เป็น object (จะพยายามแคปเจอร์เอกสารของ html ออกมาเป็น object ของ document)
+- DOM เป็นแนวคิดที่ภาษาโปรแกรมส่วนใหญ่นำไปพัฒนาเป็นของตัวเอง และเป็นแนวคิดในการสร้างโครงสร้างของเอกสารที่ไม่ผูกกับภาษาใดๆ * DOM ไม่ใช่ภาษาโปรแกรม *
+- DOM สามารถค้นหา เข้าถึง เคลื่อนย้าย เพิ่ม ลบ แก้ไข อัพเดท ได้
+- DOM จะอ่าน text base เข้าหน่วยความจำแล้วแปลงเป็นเอกสาร ซึ่งมีข้อดีคือ เข้าถึง node ใดๆก็ได้
+- เราเรียน DOM เพื่อให้เข้าใจวิธีการจัดการเอกสาร (เวลาเรากดคลิ๊กใดๆที่หน้าเอกสารแล้วมีอะไรเปลี่ยนแปลงคือ DOM)
+- DOM รองรับ hierarchical text ได้ทั้งหมด ไม่ใช่แค่ html
+- DOM มองทุกอย่างเป็น node ซึ่ง document object เป็น root node ของเอกสาร html , เป็น node ที่คลุมเอกสารทั้งหมด , เป็น node เทียม * document/root node !== document/root element *
+- node ต่างๆมาเชื่อมกันเกิดเป็นความสัมพันธ์ ถ้าจะทำอะไรต้องอ้างถึง root node เสมอ (document.xxxxxx)
+
+self-practice week07 เป็นการย้อนคลิปเรียนบวกกับเรียนรู้เพื่อขยายความเข้าใจเพิ่มเติมจากในสไลด์และจาก chatgpt ซึ่งเนื้อหาที่เรียนรู้จะมีการ comment แนบไว้
+- part 01 property ลูก ของ DOM node
+- part 02 node type
+- part 03 nodeName, nodeType, nodeValue Properties
+- part 04 Manipulating Nodes
+- part 05 innerHTML, innerText, and textContent
+- part 06 เนื่องจากในวันเรียนมีธุระที่ต้องรีบไปเลยไม่ได้ทำ practice ในห้อง 
+จึงกลับมาทำของตัวเองแล้วเปรียบเทียบพร้อมทั้งศึกษาวิธีที่หลากหลายจากของเพื่อนและของอาจารย์
