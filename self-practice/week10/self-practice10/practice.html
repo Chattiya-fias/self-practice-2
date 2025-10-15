@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form id="settingsForm">
+    <label>
+        Background Color:
+        <input type="text" id="bgColor" style="margin-bottom: 10px;">
+    </label> <br>
+
+    <label>
+        Font Color:
+        <input type="text" id="fontColor" style="margin-bottom: 10px;">
+    </label> <br>
+
+    <label>
+        Font Size:
+        <select id="fontSize" style="margin-bottom: 10px;">
+            <option value="--select--">--select--</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+    </label>
+
+    <div>
+      <button type="button" id="saveBtn" style="margin-bottom: 10px;">Save Settings</button>
+      <button type="button" id="resetBtn">Reset</button>
+    </div>
+  </form>
+    <script src="./practice.js" type="module"></script>
+</body>
+</html>
